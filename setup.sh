@@ -27,13 +27,14 @@ sudo apt-get update
 sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 
 # install dotfiles
-BASEDIR=$(dirname $0)
+SCRIPT=$(readlink -f $0)
+SCRIPTPATH=$(dirname $SCRIPT)
 cd $HOME
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
-ln -sb $BASEDIR/dotfiles/.screenrc .
-ln -sb $BASEDIR/dotfiles/.bash_profile .
-ln -sb $BASEDIR/dotfiles/.bashrc .
-ln -sb $BASEDIR/dotfiles/.bashrc_custom .
-ln -sf $BASEDIR/dotfiles/.emacs.d .
+ln -sb $SCRIPTPATH/dotfiles/.screenrc .
+ln -sb $SCRIPTPATH/dotfiles/.bash_profile .
+ln -sb $SCRIPTPATH/dotfiles/.bashrc .
+ln -sb $SCRIPTPATH/dotfiles/.bashrc_custom .
+ln -sf $SCRIPTPATH/dotfiles/.emacs.d .
