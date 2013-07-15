@@ -17,3 +17,4 @@ ln -sb $SCRIPTPATH/dotfiles/.bash_profile .
 ln -sb $SCRIPTPATH/dotfiles/.bashrc .
 ln -sb $SCRIPTPATH/dotfiles/.bashrc_custom .
 ln -sf $SCRIPTPATH/dotfiles/.emacs.d .
+ln -sf $SCRIPTPATH/dotfiles/.emacs
