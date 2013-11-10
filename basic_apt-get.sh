@@ -13,3 +13,6 @@ sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 
 # libreadline features
 sudo apt-get install -y rlwrap
+
+# some utilities
+sudo apt-get install gnome-tweak-tool xclip
