@@ -6,6 +6,7 @@ SCRIPT=$(readlink -f $0)
 SCRIPTPATH=$(dirname $SCRIPT)
 
 $SCRIPTPATH/basic_apt-get.sh
+$SCRIPTPATH/setup_git.sh
 
 # install dotfiles
 cd $HOME

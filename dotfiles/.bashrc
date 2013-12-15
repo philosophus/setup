@@ -208,6 +208,13 @@ export GREP_COLOR='1;31' # green for matches
 unset LANG
 export LC_ALL=POSIX
 
+# 2.6) Git
+
+#Autocompletion
+if [ -f ~/.git-completion.bash ]; then
+. ~/.git-completion.bash
+fi
+
 ## ----------------
 ## -- 3) Node.js --
 ## ----------------
