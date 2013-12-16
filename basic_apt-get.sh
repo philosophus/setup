@@ -20,3 +20,6 @@ sudo apt-get install -y gnome-tweak-tool xclip python-gpgme
 # media stuff
 sudo apt-get install -y ubuntu-restricted-extras
 sudo /usr/share/doc/libdvdread4/install-css.sh
+
+# java
+sudo apt-get install -y openjdk-7-jre icedtea-7-plugin openjdk-7-jdk
