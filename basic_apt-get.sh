@@ -19,3 +19,4 @@ sudo apt-get install -y gnome-tweak-tool xclip python-gpgme
 
 # media stuff
 sudo apt-get install -y ubuntu-restricted-extras
+sudo /usr/share/doc/libdvdread4/install-css.sh
