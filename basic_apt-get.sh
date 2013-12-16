@@ -16,3 +16,6 @@ sudo apt-get install -y rlwrap
 
 # some utilities
 sudo apt-get install -y gnome-tweak-tool xclip python-gpgme
+
+# media stuff
+sudo apt-get install -y ubuntu-restricted-extras
